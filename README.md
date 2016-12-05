@@ -6,6 +6,8 @@ mkdir -p $HOME/ifiplayframework
 cd $HOME/ifiplayframework
 git clone https://github.com/Namiro/IFI_PlayFramework.git
 cd $HOME/ifiplayframework/IFI_PlayFramework
+chmod u+x sbt
+chmod u+x sbt-dist/bin/sbt
 ```
 
 ## TP : Application CRUD
@@ -31,10 +33,6 @@ Pour vous faciliter les choses, une base de l'application est fourni.
 # Builder et lancer l'application :
 
 Pour cela, il suffit de taper la commande
-```
-.\sbt-dist\bin\sbt.bat run
-```
-ou
 ```
 ./sbt run
 ```
